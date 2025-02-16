@@ -10,8 +10,18 @@
     <div class="container">
         <h1>ASCII Art Generator</h1>
         <input type="text" id="textInput" placeholder="Enter text..." />
+        <select id="fontSelect">
+            <option value="" disabled selected>choose a style</option>
+            <option value="Standard">Standard</option>
+            <option value="Ghost">Ghost</option>
+            <option value="Slant">Slant</option>
+            <option value="Big">Big</option>
+            <option value="Doom">Doom</option>
+            <option value="Small">Small</option>
+        </select>
         <button onclick="generateArt()">Generate</button>
         <button onclick="clearArt()">Clear</button>
+        <button onclick="copyToClipboard()">Copy</button>
         <pre id="asciiOutput"></pre>
     </div>
     <script src="script.js"></script>
