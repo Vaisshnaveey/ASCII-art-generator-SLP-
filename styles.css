@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #282c36;
-    color: white;
+    background-color: #0843d8;
+    color: beige;
     padding: 20px;
 }
 .container {
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
 }
 input {
@@ -14,7 +14,7 @@ input {
     padding: 10px;
 }
 pre {
-    background-color: #333;
+    background-color: #7b1313;
     padding: 10px;
     white-space: pre-wrap;
 }
